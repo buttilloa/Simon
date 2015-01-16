@@ -1,0 +1,90 @@
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\bin\x86\Debug\Content\board.xnb
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\bin\x86\Debug\Content\simon.xnb
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\bin\x86\Debug\Content\gameover.xnb
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\bin\x86\Debug\Content\gameover2.xnb
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound1.xnb
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound2.xnb
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound3.xnb
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound4.xnb
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\bin\x86\Debug\Simon.exe
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\bin\x86\Debug\Simon.pdb
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\obj\x86\Debug\ResolveAssemblyReference.cache
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\obj\x86\Debug\Simon.exe
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\obj\x86\Debug\Simon.pdb
+h:\Visual Studio 2010\Projects\Simon\Simon\Simon\bin\x86\Debug\Content\cursor.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\board.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simon.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\cursor.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\gameover.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\gameover2.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound1.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound2.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound3.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound4.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Simon.exe
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Simon.pdb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.exe
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.pdb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.exe
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.pdb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\board.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simon.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\cursor.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\gameover.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\gameover2.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound1.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound2.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound3.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound4.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Simon.exe
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Simon.pdb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\board.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simon.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\cursor.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\gameover.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\gameover2.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound1.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound2.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound3.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound4.xnb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Simon.exe
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Simon.pdb
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.exe
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.pdb
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\board.xnb
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simon.xnb
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\cursor.xnb
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\gameover.xnb
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\gameover2.xnb
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound1.xnb
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound2.xnb
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound3.xnb
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound4.xnb
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Simon.exe
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Simon.pdb
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.csprojResolveAssemblyReference.cache
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.exe
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.pdb
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\board.xnb
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simon.xnb
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\cursor.xnb
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\gameover.xnb
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\gameover2.xnb
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound1.xnb
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound2.xnb
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound3.xnb
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound4.xnb
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Simon.exe
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Simon.pdb
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.csprojResolveAssemblyReference.cache
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.exe
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.pdb

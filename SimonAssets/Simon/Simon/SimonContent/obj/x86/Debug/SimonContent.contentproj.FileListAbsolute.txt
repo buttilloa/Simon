@@ -1,0 +1,6 @@
+h:\Visual Studio 2010\Projects\Simon\Simon\SimonContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\Simon\Simon\SimonContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets\SimonAssets\Simon\Simon\SimonContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAssets\Simon\Simon\SimonContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\SimonContent\obj\x86\Debug\SimonContent.contentprojResolveAssemblyReference.cache
+C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\SimonContent\obj\x86\Debug\SimonContent.contentprojResolveAssemblyReference.cache
