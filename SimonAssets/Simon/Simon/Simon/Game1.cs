@@ -28,7 +28,8 @@ namespace Simon
         Random rand;
         Turn turn = Turn.COMPUTER;
         bool isPlaybacking = true;
-        int LitCount = 2;
+      
+        bool hasclicked = false;
         
         int timer = 0;
 
@@ -108,7 +109,7 @@ namespace Simon
             if (turn == Turn.COMPUTER)
             {
                 // TODO: After 1 second add a random move
-               for(int i =0; i < LitCount;i++)
+               //for(int i =0; i < LitCount;i++)
                 moves.Add((SimonColors)rand.Next(0, 4));
                 turn = Turn.PLAYBACK;
                 PlayBackIndex = 0;
@@ -147,7 +148,8 @@ namespace Simon
             {
                 MouseState ms = Mouse.GetState();
 
-                if (ms.LeftButton == ButtonState.Pressed)
+                if (ms.LeftButton == ButtonState.Released) hasclicked = false;
+                if (ms.LeftButton == ButtonState.Pressed&&!hasclicked)
                 {
                     // Check to see if green button is hit.. add code to make sure the mouse button is depressed so you
                     // don't respond to this buttonpress twice in a row
@@ -157,6 +159,7 @@ namespace Simon
 
                     if (Lit != SimonColors.NONE)
                     {
+                        hasclicked = true;
                         if (Lit == moves[PlayerTurnIndex] && PlayerTurnIndex != moves.Count -1)
                             PlayerTurnIndex++;
                         else if (Lit != moves[PlayerTurnIndex])
@@ -164,6 +167,7 @@ namespace Simon
                             SoundManager.PlayGameOver();
                             turn = Turn.COMPUTER;
                             Lit = SimonColors.NONE;
+                            moves.Clear();
                         }
                         else if (PlayerTurnIndex == moves.Count - 1)
                         {
@@ -274,7 +278,7 @@ namespace Simon
 
                 // Draw cursor
                 spriteBatch.Draw(cursor, new Vector2(ms.X, ms.Y), Color.White);
-
+                Console.WriteLine("Count " + moves.Count);
             spriteBatch.End();
 
             base.Draw(gameTime);
