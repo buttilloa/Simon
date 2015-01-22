@@ -12,7 +12,7 @@ using Microsoft.Xna.Framework.Media;
 namespace Simon
 {
     public enum SimonColors {GREEN, RED, YELLOW, BLUE, NONE};
-    public enum Turn { PLAYER, COMPUTER, PLAYBACK, GAMEOVER};
+    public enum Turn { PLAYER, COMPUTER, PLAYBACK, GAMEOVER,YOUSUCK};
     
 
     /// <summary>
@@ -25,18 +25,17 @@ namespace Simon
         Texture2D board;
         Texture2D simon;
         Texture2D cursor;
+        Texture2D yousuck;
+        SpriteFont font;
         Random rand;
         Turn turn = Turn.COMPUTER;
         bool isPlaybacking = true;
-      
         bool hasclicked = false;
-        
         int timer = 0;
-
         List<SimonColors> moves;   // Hint
         int PlayBackIndex = 0;  // Index into moves list
         int PlayerTurnIndex = 0; // When it's the player's turn, you can use this to store what move the player is on
-        MouseState oldstate;
+        //MouseState oldstate;
         SimonColors Lit = SimonColors.NONE;  // Which button is currently lit up?
 
         public Game1()
@@ -76,6 +75,8 @@ namespace Simon
             board = Content.Load<Texture2D>("board");
             simon = Content.Load<Texture2D>("simon");
             cursor = Content.Load<Texture2D>("cursor");
+            font = Content.Load<SpriteFont>("pericles14");
+            yousuck = Content.Load<Texture2D>("yousuck");
 
             SoundManager.Initialize(Content);
 
@@ -106,13 +107,24 @@ namespace Simon
 
             // TODO: Add your update logic here
 
-            if (turn == Turn.COMPUTER)
+            if (turn == Turn.YOUSUCK)
+            {
+                timer++;
+                if (timer >= 120)
+                {
+                    timer = 0;
+                    turn = Turn.COMPUTER;
+                }
+            }
+            else if (turn == Turn.COMPUTER)
             {
                 // TODO: After 1 second add a random move
-               //for(int i =0; i < LitCount;i++)
+                //for(int i =0; i < LitCount;i++)
                 moves.Add((SimonColors)rand.Next(0, 4));
+               
                 turn = Turn.PLAYBACK;
                 PlayBackIndex = 0;
+                PlayerTurnIndex = 0;
                 isPlaybacking = true;
             }
             else if (turn == Turn.PLAYBACK)
@@ -120,6 +132,7 @@ namespace Simon
                 timer++;
                 if (isPlaybacking)
                 {
+                    
                     if (timer >= 60)
                     {
                         timer = 0;
@@ -131,53 +144,56 @@ namespace Simon
                     }
                 }
                 //Lit = SimonColors.NONE;
-                 if( PlayBackIndex == moves.Count){
-                     isPlaybacking = false;
-                     if (timer >= 60)
-                     {
-                         timer = 0;
-                          Lit = SimonColors.NONE;
-                           turn = Turn.PLAYER;
+                if (PlayBackIndex == moves.Count)
+                {
+                    isPlaybacking = false;
+                    if (timer >= 60)
+                    {
+                        timer = 0;
+                        Lit = SimonColors.NONE;
+                        turn = Turn.PLAYER;
 
-                         PlayerTurnIndex = 0;
-                        
-                     }
-                 }
+                        PlayerTurnIndex = 0;
+
+                    }
+                }
             }
             else if (turn == Turn.PLAYER)
             {
                 MouseState ms = Mouse.GetState();
 
                 if (ms.LeftButton == ButtonState.Released) hasclicked = false;
-                if (ms.LeftButton == ButtonState.Pressed&&!hasclicked)
+                if (ms.LeftButton == ButtonState.Pressed && !hasclicked)
                 {
                     // Check to see if green button is hit.. add code to make sure the mouse button is depressed so you
-                    // don't respond to this buttonpress twice in a row
-                   
-                    //if(ms.LeftButton == ButtonState.Pressed &&oldstate.LeftButton == ButtonState.Pressed)
+                    // don't respond to this buttonpress twice in a roy
                     Lit = getPressed();
 
                     if (Lit != SimonColors.NONE)
                     {
                         hasclicked = true;
-                        if (Lit == moves[PlayerTurnIndex] && PlayerTurnIndex != moves.Count -1)
+                        if (Lit == moves[PlayerTurnIndex] && PlayerTurnIndex != moves.Count - 1)
+                        {
                             PlayerTurnIndex++;
+
+                        }
                         else if (Lit != moves[PlayerTurnIndex])
                         {
                             SoundManager.PlayGameOver();
-                            turn = Turn.COMPUTER;
+                            turn = Turn.YOUSUCK;
+
                             Lit = SimonColors.NONE;
                             moves.Clear();
                         }
                         else if (PlayerTurnIndex == moves.Count - 1)
                         {
                             turn = Turn.COMPUTER;
-                            Lit = SimonColors.NONE;
+                            //Lit = SimonColors.NONE;
                         }
                         SoundManager.PlaySimonSound(Lit);
                     }
                 }
-                oldstate = ms;
+
             }
             else if (turn == Turn.GAMEOVER)
             {
@@ -278,7 +294,11 @@ namespace Simon
 
                 // Draw cursor
                 spriteBatch.Draw(cursor, new Vector2(ms.X, ms.Y), Color.White);
-                Console.WriteLine("Count " + moves.Count);
+                spriteBatch.DrawString(font, "Count: " + moves.Count , new Vector2(600, 20), Color.White);
+                if (turn == Turn.YOUSUCK)
+                {
+                    spriteBatch.Draw(yousuck, new Rectangle(0, 0, 800, 600), Color.White);
+                }
             spriteBatch.End();
 
             base.Draw(gameTime);

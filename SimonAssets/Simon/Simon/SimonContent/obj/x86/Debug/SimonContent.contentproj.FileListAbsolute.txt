@@ -5,3 +5,4 @@ C:\Documents and Settings\tanczosm.EASD\Desktop\SimonAssets2\SimonAssets\SimonAs
 C:\Users\EAHSCS\Documents\SimonAssets\SimonAssets\Simon\Simon\SimonContent\obj\x86\Debug\SimonContent.contentprojResolveAssemblyReference.cache
 C:\Users\EAHSCS\Desktop\SimonAssets\Simon\Simon\SimonContent\obj\x86\Debug\SimonContent.contentprojResolveAssemblyReference.cache
 C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\SimonContent\obj\x86\Debug\SimonContent.contentprojResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\Simon\SimonAssets\Simon\Simon\SimonContent\obj\x86\Debug\SimonContent.contentprojResolveAssemblyReference.cache

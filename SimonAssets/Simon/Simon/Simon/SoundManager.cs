@@ -14,8 +14,10 @@ namespace Simon
     {
         private static List<SoundEffect> simonSounds = new List<SoundEffect>();
         private static int simonSoundCount = 4;
+       private static Random randy = new Random();
 
         private static SoundEffect gameOver;
+        private static SoundEffect SupergameOver;
 
         private static Random rand = new Random();
 
@@ -24,6 +26,7 @@ namespace Simon
             try
             {
                 gameOver = content.Load<SoundEffect>(@"gameover");
+                SupergameOver = content.Load<SoundEffect>(@"gameover2");
 
                 for (int x = 1; x <= simonSoundCount; x++)
                 {
@@ -54,7 +57,9 @@ namespace Simon
         {
             try
             {
-                gameOver.Play();
+                if (rand.Next(0, 2) == 1)
+                    SupergameOver.Play();
+                else gameOver.Play();
             }
             catch
             {
