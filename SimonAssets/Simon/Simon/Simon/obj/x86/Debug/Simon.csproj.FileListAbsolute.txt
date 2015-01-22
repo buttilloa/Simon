@@ -120,3 +120,5 @@ C:\Users\Anthony\Desktop\Simon\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon
 C:\Users\Anthony\Desktop\Simon\SimonAssets\Simon\Simon\Simon\obj\x86\Debug\Simon.pdb
 C:\Users\Anthony\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\Pericles14.xnb
 C:\Users\Anthony\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\yousuck.xnb
+C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\yousuck.xnb
+C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\Pericles14.xnb

@@ -12,7 +12,7 @@ using Microsoft.Xna.Framework.Media;
 namespace Simon
 {
     public enum SimonColors {GREEN, RED, YELLOW, BLUE, NONE};
-    public enum Turn { PLAYER, COMPUTER, PLAYBACK, GAMEOVER,YOUSUCK};
+    public enum Turn { PLAYER, COMPUTER, PLAYBACK, WAIT, GAMEOVER,YOUSUCK};
     
 
     /// <summary>
@@ -32,6 +32,7 @@ namespace Simon
         bool isPlaybacking = true;
         bool hasclicked = false;
         int timer = 0;
+        String[] random = new String[5];
         List<SimonColors> moves;   // Hint
         int PlayBackIndex = 0;  // Index into moves list
         int PlayerTurnIndex = 0; // When it's the player's turn, you can use this to store what move the player is on
@@ -48,6 +49,11 @@ namespace Simon
             Content.RootDirectory = "Content";
 
             rand = new Random(System.Environment.TickCount);
+            random[0] = "I'm not single, and I have a ton of friends.... right guys?";
+            random[1] = "Bigger is not alwasy better... what if I had a big tumor?";
+            random[2] = "Nothing like the smell of a fresh new can of angry ex girlfriend, because apparently I dropped our kid on a busy highway";
+            random[3] = "Please help they have me trapped! I'm at 2856 Freemansburg Ave, please send pizza and mountain dew";
+            random[4] = "Sometimes you have to sit back and just say... yeah, that shit does stink";
         }
 
         /// <summary>
@@ -110,7 +116,7 @@ namespace Simon
             if (turn == Turn.YOUSUCK)
             {
                 timer++;
-                if (timer >= 120)
+                if (timer >= 180)
                 {
                     timer = 0;
                     turn = Turn.COMPUTER;
@@ -140,10 +146,12 @@ namespace Simon
                         Lit = moves[PlayBackIndex];
                         //if(PlayBackIndex != moves.Count-1)
                         PlayBackIndex++;
+                        turn = Turn.WAIT;
                         SoundManager.PlaySimonSound(Lit);
+                        
                     }
                 }
-                //Lit = SimonColors.NONE;
+                //Lit = SimonColors.NONE; 
                 if (PlayBackIndex == moves.Count)
                 {
                     isPlaybacking = false;
@@ -156,6 +164,20 @@ namespace Simon
                         PlayerTurnIndex = 0;
 
                     }
+                }
+            }
+            else if (turn == Turn.WAIT)
+            {
+                timer++;
+
+                if (timer == 15)
+                {
+                    Lit = SimonColors.NONE;
+                }
+                else if (timer > 45)
+                {
+                    turn = Turn.PLAYBACK;
+                    timer = 70;
                 }
             }
             else if (turn == Turn.PLAYER)
@@ -267,6 +289,7 @@ namespace Simon
         /// This is called when the game should draw itself.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        int position = 0;
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.Black);
@@ -295,6 +318,8 @@ namespace Simon
                 // Draw cursor
                 spriteBatch.Draw(cursor, new Vector2(ms.X, ms.Y), Color.White);
                 spriteBatch.DrawString(font, "Count: " + moves.Count , new Vector2(600, 20), Color.White);
+                spriteBatch.DrawString(font, "" + random[rand.Next(0, 5)], new Vector2(800-position,580), Color.White);
+                position++;
                 if (turn == Turn.YOUSUCK)
                 {
                     spriteBatch.Draw(yousuck, new Rectangle(0, 0, 800, 600), Color.White);

@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\board.xnb</Output>
-      <Time>2015-01-21T07:42:33.5612-05:00</Time>
+      <Time>2015-01-22T07:56:09.412-05:00</Time>
     </Item>
     <Item>
       <Source>simon.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simon.xnb</Output>
-      <Time>2015-01-21T07:42:33.6082-05:00</Time>
+      <Time>2015-01-22T07:56:09.447-05:00</Time>
     </Item>
     <Item>
       <Source>cursor.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\cursor.xnb</Output>
-      <Time>2015-01-21T07:42:33.5642-05:00</Time>
+      <Time>2015-01-22T07:56:09.415-05:00</Time>
     </Item>
     <Item>
       <Source>gameover.wav</Source>
@@ -35,7 +35,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\gameover.xnb</Output>
-      <Time>2015-01-21T07:42:33.5662-05:00</Time>
+      <Time>2015-01-22T07:56:09.418-05:00</Time>
     </Item>
     <Item>
       <Source>gameover2.wav</Source>
@@ -44,7 +44,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\gameover2.xnb</Output>
-      <Time>2015-01-21T07:42:33.5712-05:00</Time>
+      <Time>2015-01-22T07:56:09.423-05:00</Time>
     </Item>
     <Item>
       <Source>simonSound1.wav</Source>
@@ -53,7 +53,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound1.xnb</Output>
-      <Time>2015-01-21T07:42:33.6102-05:00</Time>
+      <Time>2015-01-22T07:56:09.451-05:00</Time>
     </Item>
     <Item>
       <Source>simonSound2.wav</Source>
@@ -62,7 +62,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound2.xnb</Output>
-      <Time>2015-01-21T07:42:33.6132-05:00</Time>
+      <Time>2015-01-22T07:56:09.454-05:00</Time>
     </Item>
     <Item>
       <Source>simonSound3.wav</Source>
@@ -71,7 +71,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound3.xnb</Output>
-      <Time>2015-01-21T07:42:33.6162-05:00</Time>
+      <Time>2015-01-22T07:56:09.457-05:00</Time>
     </Item>
     <Item>
       <Source>simonSound4.wav</Source>
@@ -80,7 +80,25 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\simonSound4.xnb</Output>
-      <Time>2015-01-21T07:42:33.6182-05:00</Time>
+      <Time>2015-01-22T07:56:09.46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>yousuck.jpg</Source>
+      <Name>yousuck</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\yousuck.xnb</Output>
+      <Time>2015-01-22T07:56:09.464-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Pericles14.spritefont</Source>
+      <Name>Pericles14</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\EAHSCS\Desktop\Simon\SimonAssets\Simon\Simon\Simon\bin\x86\Debug\Content\Pericles14.xnb</Output>
+      <Time>2015-01-22T07:56:09.387-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
